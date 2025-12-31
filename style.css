@@ -1,0 +1,48 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 20vw;
+    height: 40vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 26, 26);
+    border-radius: 10%;
+    border: 8px solid grey;
+    row-gap: 4vh;
+}
+.display-box{
+    width: 15vw;
+    height: 20vh;
+    border: 2px solid #39FF14;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+}
+.btns{
+    width: 15vw;
+    height: 2.5vw;
+    padding: 0;
+    display: flex;
+    column-gap: 5vw;
+}
+.btn{
+    width: 5vw;
+    height: 2.5vw;
+    background-color: orange;
+    border-radius: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
